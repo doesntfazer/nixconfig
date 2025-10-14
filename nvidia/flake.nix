@@ -20,8 +20,6 @@
         ./configuration.nix
 
         ({ lib, pkgs, ... }: {
-          boot.loader.systemd-boot.enable = true;
-          boot.loader.efi.canTouchEfiVariables = true;
 
           environment.systemPackages = [
             (winboat.packages.${pkgs.stdenv.hostPlatform.system}.winboat)
