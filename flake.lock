@@ -162,7 +162,8 @@
     "root": {
       "inputs": {
         "lanzaboote": "lanzaboote",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "winboat": "winboat"
       }
     },
     "rust-overlay": {
@@ -183,6 +184,26 @@
       "original": {
         "owner": "oxalica",
         "repo": "rust-overlay",
+        "type": "github"
+      }
+    },
+    "winboat": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1760459934,
+        "narHash": "sha256-OQn5UqCOXsvaAwOG0p3ZiXmR+WfN3wf7H3zlc+uiByM=",
+        "owner": "TibixDev",
+        "repo": "winboat",
+        "rev": "eac9a7f48ce9bf9c60b9e7743aaf53d5a0f6351e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "TibixDev",
+        "repo": "winboat",
         "type": "github"
       }
     }

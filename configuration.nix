@@ -13,7 +13,7 @@ let
 in
 {
   imports = [
-    /etc/nixos/hardware-configuration.nix
+    ./hardware-configuration.nix
    # ./lanzaboote.nix
   ];
 
@@ -259,7 +259,7 @@ in
     xclip
     tealdeer
     bat
-
+    gitAndTools.gh
     # GNOME extension packages
     ext.dash-to-panel
   ];
